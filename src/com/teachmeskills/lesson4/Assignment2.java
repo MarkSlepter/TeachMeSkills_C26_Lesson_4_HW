@@ -1,6 +1,5 @@
 package com.teachmeskills.lesson4;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Assignment2 {

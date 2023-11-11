@@ -1,7 +1,6 @@
 package com.teachmeskills.lesson4;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Assignment3 {
     public static void main(String[] args) {
@@ -12,9 +11,9 @@ public class Assignment3 {
         int average1 = calculateAverage(array1);
         int average2 = calculateAverage(array2);
         if (average1 > average2) {
-            System.out.println("Arithmetic mean for Array 1 is greater than: " + average1);
+            System.out.println("Arithmetic mean for Array 1 is greater : " + average1);
         } else if (average1 < average2) {
-            System.out.println("Arithmetic mean for Array 2 is greater than: " + average2);
+            System.out.println("Arithmetic mean for Array 2 is greater : " + average2);
         } else {
             System.out.println("Arithmetic averages are equal to: " + average1);
         }
@@ -25,7 +24,7 @@ public class Assignment3 {
         for (int num : arr) {
             sum += num;
         }
-        return (int) sum / arr.length;
+        return sum / arr.length;
     }
 
 }
